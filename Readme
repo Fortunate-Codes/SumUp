@@ -1,0 +1,28 @@
+Explanation:
+
+We first import the `Scanner` class from the `java.util`
+package to allow user input.
+
+We create a `main` method which is the entry point of the 
+program.
+
+We prompt the user to enter a number using the 
+`System.out.print()` method and read it using the `nextInt()` 
+method of the `Scanner` class.
+
+We initialize two variables `sum` and `digit` to store the sum 
+of digits and the current digit respectively.
+
+We use a `while` loop to iterate through each digit of the given number. 
+We continue looping until the number becomes 
+0.
+
+Inside the loop, we use the modulus operator `%` to extract 
+the last digit of the number and store it in the `digit` variable. 
+We then add this digit to the `sum` variable.
+
+We update the value of the `number` variable by dividing it by 
+10, which removes the last digit from the number.
+
+After the loop ends, we print the sum of digits using the 
+`System.out.println()` method.
